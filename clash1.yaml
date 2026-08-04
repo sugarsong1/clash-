@@ -61,9 +61,9 @@ use: &use
   # type: select
   type: url-test
   use:
-    - 魔法云
-    - 性价比
-    - 快乐猫
+    - 订阅一
+    - 订阅二
+    - 订阅三
     # - 本地配置
 
 # 订阅链接
@@ -72,17 +72,17 @@ use: &use
 proxy-providers:
   订阅一:
     <<: *p
-    # path: ./proxy_provider/魔法云.yaml
+    # path: ./proxy_provider/订阅一.yaml
     url: "https://uid.37211.lol/api/v1/client/subscribe?token=b270df243341c8eaacb01eef1a71e88c"
 
   订阅二:
     <<: *p
-    # path: ./proxy_provider/性价比.yaml
+    # path: ./proxy_provider/订阅二.yaml
     url: "https://proxyinfo.net/api/v1/client/subscribe?token=f673327816e5c0a7c6b28b532170a0d2"
 
   订阅三:
     <<: *p
-    # path: ./proxy_provider/快乐猫.yaml
+    # path: ./proxy_provider/订阅三.yaml
     url: "https://a1.a3ab91e6.us/lczq1w2/?token=UoEG1qpNJ1amDZbJcHV8fTtpppDaLKwO"
 
 
